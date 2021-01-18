@@ -1,3 +1,9 @@
+Note: We've forked this buildpack to help mitigate the risk of a [supply chain attack](https://en.wikipedia.org/wiki/Supply_chain_attack) where applications can become compromised via the compromised repo of a third-party buildpack. You should also consider forking this repo and linking to your own copy of it for the same reason. 
+
+Big thanks to [Jan Žák](https://github.com/zakjan) and [the other contributors](https://github.com/bullet-train-co/heroku-buildpack-cachesave/commits/master) for making this available to everyone and improving it over time!
+
+--- 
+
 # heroku-buildpack-cachesave
 
 Copy files to cache. Paths are read from `.buildcache` file in your project source code.
